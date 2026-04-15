@@ -1,0 +1,88 @@
+{
+  "generated_at": "2026-04-05T10:03:34+00:00",
+  "csv_path": "be_project_dataset.csv",
+  "projects_in_csv": 78,
+  "text_types": {
+    "title_abstract": {
+      "projects_with_text": 78,
+      "word_count_summary": {
+        "count": 78,
+        "min": 2,
+        "max": 517,
+        "average": 197.0,
+        "std_dev": 114.8489,
+        "first_quartile": 110.0,
+        "median": 176.0,
+        "third_quartile": 263.25
+      },
+      "sentence_count_summary": {
+        "count": 78,
+        "min": 1,
+        "max": 23,
+        "average": 9.3846,
+        "std_dev": 4.7843,
+        "first_quartile": 6.0,
+        "median": 9.5,
+        "third_quartile": 12.0
+      },
+      "noun_lemmas_unique": 1593,
+      "verb_lemmas_unique": 503,
+      "noun_lemmas_total": 6115,
+      "verb_lemmas_total": 2158
+    },
+    "system_requirements": {
+      "projects_with_text": 66,
+      "word_count_summary": {
+        "count": 66,
+        "min": 12,
+        "max": 470,
+        "average": 155.803,
+        "std_dev": 109.452,
+        "first_quartile": 85.25,
+        "median": 124.0,
+        "third_quartile": 205.0
+      },
+      "sentence_count_summary": {
+        "count": 66,
+        "min": 1,
+        "max": 28,
+        "average": 8.7576,
+        "std_dev": 6.8029,
+        "first_quartile": 4.0,
+        "median": 6.5,
+        "third_quartile": 12.75
+      },
+      "noun_lemmas_unique": 1086,
+      "verb_lemmas_unique": 239,
+      "noun_lemmas_total": 5272,
+      "verb_lemmas_total": 1011
+    },
+    "architecture_description": {
+      "projects_with_text": 78,
+      "word_count_summary": {
+        "count": 78,
+        "min": 1,
+        "max": 2953,
+        "average": 316.6795,
+        "std_dev": 528.1622,
+        "first_quartile": 23.0,
+        "median": 122.5,
+        "third_quartile": 335.5
+      },
+      "sentence_count_summary": {
+        "count": 78,
+        "min": 1,
+        "max": 230,
+        "average": 21.4103,
+        "std_dev": 36.2869,
+        "first_quartile": 1.25,
+        "median": 8.5,
+        "third_quartile": 28.0
+      },
+      "noun_lemmas_unique": 2144,
+      "verb_lemmas_unique": 596,
+      "noun_lemmas_total": 12238,
+      "verb_lemmas_total": 3022
+    }
+  }
+}

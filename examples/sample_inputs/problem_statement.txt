@@ -1,0 +1,11 @@
+Design and develop an AI-powered system for automated detection and classification of plant diseases from leaf images. The system will use deep learning techniques, specifically Convolutional Neural Networks (CNNs), to analyze photographs of plant leaves and identify potential diseases.
+
+The target users are farmers and agricultural extension workers who need a quick, reliable, and accessible tool for early disease detection. Early detection of plant diseases can significantly reduce crop losses and minimize the need for extensive pesticide use.
+
+The system should work on mobile devices with limited connectivity, making it suitable for rural agricultural settings where internet access may be unreliable or unavailable.
+
+Key challenges addressed:
+1. Limited access to agricultural experts in rural areas
+2. Delayed disease detection leading to crop losses
+3. Over-reliance on pesticides due to misidentification
+4. Need for a scalable, cost-effective diagnostic solution

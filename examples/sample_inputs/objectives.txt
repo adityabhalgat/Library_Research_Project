@@ -1,0 +1,23 @@
+Primary Objectives:
+
+1. Develop a deep learning model capable of detecting and classifying at least 15 common plant diseases with an accuracy of 90% or higher on the test dataset.
+
+2. Create a mobile application (Android) that allows users to capture or upload images of plant leaves for disease detection.
+
+3. Implement offline functionality by deploying a lightweight model (under 50MB) that can run locally on mobile devices without internet connectivity.
+
+4. Provide treatment recommendations and preventive measures for each identified disease based on agricultural best practices.
+
+5. Achieve a prediction response time of under 3 seconds on mid-range Android devices.
+
+Secondary Objectives:
+
+6. Design an intuitive user interface accessible to users with varying levels of technical literacy.
+
+7. Support multiple regional languages (Hindi, Marathi, Tamil) for wider accessibility.
+
+8. Implement a feedback mechanism to continuously improve model accuracy based on user corrections.
+
+9. Create a dashboard for agricultural extension workers to monitor disease prevalence in their regions.
+
+10. Document the system architecture and provide training materials for end users.

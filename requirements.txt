@@ -1,0 +1,27 @@
+# LLM - Ollama via LangChain
+langchain>=0.3.0
+langchain-ollama>=0.2.0
+langchain-core>=0.3.0
+
+# CLI
+click>=8.0.0
+
+# Configuration
+pydantic>=2.0.0
+pydantic-settings>=2.0.0
+python-dotenv>=1.0.0
+
+# Image and Graph Processing
+networkx>=3.0
+matplotlib>=3.7.0
+pillow>=10.0.0
+
+# Utilities
+rich>=13.0.0  # For beautiful CLI output
+fpdf2>=2.7.0  # For PDF generation
+pypdf>=4.2.0  # For extracting text from PDFs
+openpyxl>=3.1.0  # For reading Excel prompt tables
+
+# NLP and Visualization
+nltk>=3.9.0
+wordcloud>=1.9.3

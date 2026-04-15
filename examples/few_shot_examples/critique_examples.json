@@ -1,0 +1,93 @@
+[
+    {
+        "input": {
+            "problem_statement": "Develop a mobile application for tracking daily water intake and sending reminders to users to stay hydrated.",
+            "objectives": "1. Create a user-friendly mobile app with intuitive UI. 2. Implement customizable reminder notifications. 3. Track and visualize daily water consumption. 4. Sync data across devices via cloud.",
+            "srs": "FR1: User registration. FR2: Set daily water goal. FR3: Log water intake. FR4: Push notifications. NFR1: Response time < 2s."
+        },
+        "critique": {
+            "overall_assessment": "A straightforward application with clear utility but limited innovation. The project is well-scoped for a BE project but could benefit from additional features to differentiate it from existing solutions in the market.",
+            "scores": {
+                "problem_clarity": 7,
+                "objectives_quality": 6,
+                "architecture_design": 5,
+                "srs_completeness": 5,
+                "feasibility": 9,
+                "innovation": 4
+            },
+            "strengths": [
+                "Clear and focused problem statement addressing a real health concern",
+                "Highly feasible within a semester timeline",
+                "Simple scope reduces risk of project failure",
+                "Cloud sync shows consideration for user experience"
+            ],
+            "weaknesses": [
+                "Numerous similar apps already exist (MyWater, WaterMinder, etc.)",
+                "Objectives are not fully SMART - missing measurable criteria and timelines",
+                "No architecture diagram or technology stack mentioned",
+                "SRS is minimal and missing non-functional requirements details",
+                "No differentiation strategy from existing solutions"
+            ],
+            "suggestions": [
+                "Add gamification elements (achievements, streaks) to differentiate from competitors",
+                "Include smart reminders based on weather, activity level, or health data",
+                "Specify measurable targets in objectives (e.g., 'Achieve 95% reminder delivery rate')",
+                "Consider integration with fitness trackers (Google Fit, Apple Health)",
+                "Expand SRS with security requirements, offline functionality, and accessibility",
+                "Add a recommendation engine based on user demographics and activity"
+            ],
+            "detailed_critique": {
+                "problem_statement": "The problem is clearly stated and addresses a genuine health concern. However, it lacks supporting statistics or research to justify the need. Consider adding data about dehydration prevalence or health impacts to strengthen the motivation.",
+                "objectives": "Objectives are reasonable but lack specificity. 'User-friendly' is subjective - define concrete usability metrics. Include timeline for each objective. The cloud sync objective is good but needs security considerations.",
+                "architecture": "No architecture provided. This is a significant gap. Recommend creating a mobile-first architecture diagram showing: mobile app (React Native/Flutter), backend API (Node.js/Django), database (PostgreSQL/MongoDB), and cloud services (Firebase/AWS).",
+                "srs": "The SRS is incomplete. Missing: detailed non-functional requirements, user stories, use case diagrams, data flow diagrams, API specifications, security requirements, and testing criteria. Expand each functional requirement with acceptance criteria."
+            }
+        }
+    },
+    {
+        "input": {
+            "problem_statement": "Design an AI-powered smart parking system that helps drivers find available parking spots in urban areas, reducing traffic congestion and fuel wastage caused by circling for parking.",
+            "objectives": "1. Deploy IoT sensors to detect parking spot occupancy with 98% accuracy. 2. Develop a mobile app showing real-time parking availability. 3. Implement ML-based prediction for parking availability. 4. Integrate with payment gateways for seamless transactions. 5. Reduce average parking search time by 50%.",
+            "srs": "FR1: Real-time parking map. FR2: Booking and reservation. FR3: Navigation to spot. FR4: Digital payment. FR5: Admin dashboard. NFR1: 99.9% uptime. NFR2: Response time < 1s. NFR3: Support 10,000 concurrent users. NFR4: End-to-end encryption."
+        },
+        "critique": {
+            "overall_assessment": "An ambitious and impactful project addressing a real urban challenge. The objectives are well-defined with measurable targets. The scope is appropriate for a BE project if hardware complexity is managed. Strong potential for real-world deployment.",
+            "scores": {
+                "problem_clarity": 9,
+                "objectives_quality": 9,
+                "architecture_design": 6,
+                "srs_completeness": 7,
+                "feasibility": 6,
+                "innovation": 7
+            },
+            "strengths": [
+                "Addresses a genuine urban problem with quantifiable impact",
+                "SMART objectives with specific, measurable targets",
+                "Multi-disciplinary project combining IoT, ML, and mobile development",
+                "Strong SRS with both functional and non-functional requirements",
+                "Clear value proposition for end users"
+            ],
+            "weaknesses": [
+                "Hardware deployment at scale may be challenging for a student project",
+                "IoT sensor accuracy target (98%) needs validation methodology",
+                "ML prediction model training requires extensive historical data",
+                "Integration with existing parking infrastructure not addressed",
+                "Cost analysis and business model missing"
+            ],
+            "suggestions": [
+                "Start with a pilot project for a small parking lot (20-50 spots)",
+                "Use computer vision as an alternative to IoT sensors for faster prototyping",
+                "Partner with a local parking facility for real-world testing",
+                "Include data collection and labeling strategy for ML model",
+                "Add requirements for edge computing to reduce latency",
+                "Consider integration with Google Maps or Waze for navigation"
+            ],
+            "detailed_critique": {
+                "problem_statement": "Excellent problem definition with clear environmental and economic benefits. Consider adding statistics about parking-related congestion in target cities. Mention target market segment (mall parking, street parking, airport, etc.).",
+                "objectives": "Well-structured SMART objectives. The 50% reduction target is ambitious but measurable. Consider adding objectives for user adoption rate and system maintenance. The 98% sensor accuracy may need justification.",
+                "architecture": "Need detailed architecture showing: IoT sensors, edge gateway, cloud backend, ML pipeline, mobile app, and admin portal. Specify communication protocols (MQTT, HTTP), database choices, and cloud platform.",
+                "srs": "Good foundation but needs expansion: Add requirements for sensor failure handling, data retention policies, accessibility features, multi-language support, and offline mode. Include API documentation and system integration requirements."
+            }
+        }
+    }
+]

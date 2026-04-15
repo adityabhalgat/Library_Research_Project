@@ -1,0 +1,104 @@
+Parameter Analysis Summary
+============================================================
+
+strategy | Are all components and their interactions clearly represented in the diagram? | Are there any missing components or interactions that should be included in the diagram which are present in the description? | Are the extra components and interactions in the architecture diagram which needs to be added in the description provided? | Is the architecture diagram and the description consistent with each other? | Is the architecture diagram easy to understand for stakeholders? | Are there any ambiguities or unclear elements in the architecture diagram? | Are there any discrepancies between the architecture diagram and the actual implementation? | Is the architecture diagram aligned with the overall goals and requirements of the system? | Is the architecture diagram scalable and adaptable to future changes in the system? | Is the architecture diagram compliant with industry standards and best practices? | Is the architecture diagram reviewed and approved by relevant stakeholders?
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+monolithic | 1 | 0 | 0 | 1 | 1 | 0 | 0 | 1 | 0 | 0 | 0
+cot | 0 | 1 | 0 | 1 | 0 | 1 | 0 | 0 | 0 | 0 | 0
+expert | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+cove | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0
+rcot | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0
+two_model | 1 | 0 | 0 | 1 | 0 | 0 | 0 | 1 | 1 | 0 | 0
+
+Detailed Results
+------------------------------------------------------------
+Project: 1 | Strategy: monolithic
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Not Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Not Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Not Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+
+Project: 1 | Strategy: cot
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Not Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Not Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Not Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Not Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+
+Project: 1 | Strategy: expert
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Not Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Not Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Not Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Not Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Not Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Not Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Not Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+
+Project: 1 | Strategy: cove
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Not Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Not Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Not Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+
+Project: 1 | Strategy: rcot
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Not Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Not Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Not Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Not Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Not Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Not Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Not Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+
+Project: 1 | Strategy: two_model
+{
+  "Are all components and their interactions clearly represented in the diagram?": "Detected",
+  "Are there any missing components or interactions that should be included in the diagram which are present in the description?": "Not Detected",
+  "Are the extra components and interactions in the architecture diagram which needs to be added in the description provided?": "Not Detected",
+  "Is the architecture diagram and the description consistent with each other?": "Detected",
+  "Is the architecture diagram easy to understand for stakeholders?": "Not Detected",
+  "Are there any ambiguities or unclear elements in the architecture diagram?": "Not Detected",
+  "Are there any discrepancies between the architecture diagram and the actual implementation?": "Not Detected",
+  "Is the architecture diagram aligned with the overall goals and requirements of the system?": "Detected",
+  "Is the architecture diagram scalable and adaptable to future changes in the system?": "Detected",
+  "Is the architecture diagram compliant with industry standards and best practices?": "Not Detected",
+  "Is the architecture diagram reviewed and approved by relevant stakeholders?": "Not Detected"
+}
+

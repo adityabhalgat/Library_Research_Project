@@ -1,0 +1,29 @@
+Is the architecture easy to understand?
+Does the architecture diagram contain too much clutter, or is it intuitive to interpret?
+Do the component names clearly indicate their functionality?
+Does the architecture include all essential components such as database, GUI, and load balancer?
+Do any components overlap in terms of functionality?
+Are any components too simple or trivial and could be merged with related components?
+Are any components too complex and should be split into smaller components?
+Are the terminology and component names consistent across architecture text and diagram?
+Are all connections consistent between the diagram and text with no missing or extra interactions?
+Is the system architecture consistent with the defined requirements?
+Is the chosen architectural style appropriate for the system?
+Are appropriate design patterns used in the architecture?
+Are all functional requirements, use cases, and business goals covered by the architecture?
+Can the modularity and abstraction level of the architecture be effectively measured?
+Does the architecture achieve a good modularity maturity index score?
+Does the architecture demonstrate strong modularity based on cohesion, coupling, and complexity metrics?
+Does the architecture exhibit well-defined internal and external connections?
+Is it easy to understand the reasoning behind architectural decisions?
+Are component sizes consistent and within expected limits?
+Are components within a module highly related (high cohesion)?
+Are dependencies between components minimal and well-managed (low coupling)?
+How dependent are components on others in terms of incoming and outgoing dependencies?
+Does the architecture maintain an appropriate level of abstraction?
+Is the architecture easy to modify, extend, and maintain?
+Will the system meet performance requirements such as latency, throughput, and efficiency?
+Can the system scale effectively with increasing users, data, and transactions?
+Does the system ensure availability, fault tolerance, and graceful failure handling?
+Does the architecture provide adequate protection against vulnerabilities and threats?
+Can the system easily integrate and interact with other systems?
